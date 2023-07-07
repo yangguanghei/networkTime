@@ -24,7 +24,8 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    NSDate * date = [[NetworkClock sharedNetworkClock] networkTime];
+    NSDate * netDate = [[NetworkClock sharedNetworkClock] networkTime];
+    NSLog(@"NetworkClock->networkTime👉%@", netDate);
 //    NSUInteger timestamp = [NSString stringWithFormat:@"%f", [date timeIntervalSince1970] * 1000].integerValue;
 //       NSLog(@"timestamp:%lu", timestamp);
 //    double offset = [[NetworkClock sharedNetworkClock] networkOffset];
@@ -32,7 +33,8 @@
     
     NSDate * date = [self getInternetDate];
     NSUInteger timestamp = [NSString stringWithFormat:@"%f", [date timeIntervalSince1970] * 1000].integerValue;
-    NSLog(@"%lu", timestamp);
+//    NSLog(@"%lu", timestamp);
+    NSLog(@"👉%@", date);
 }
 
 - (NSDate *)getInternetDate{

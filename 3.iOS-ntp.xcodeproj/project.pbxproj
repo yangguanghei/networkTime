@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,10 @@
 		180620A624C92FBE00C8A4A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180620A524C92FBE00C8A4A4 /* main.m */; };
 		180620B024C92FBE00C8A4A4 /* __iOS_ntpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180620AF24C92FBE00C8A4A4 /* __iOS_ntpTests.m */; };
 		180620BB24C92FBE00C8A4A4 /* __iOS_ntpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180620BA24C92FBE00C8A4A4 /* __iOS_ntpUITests.m */; };
-		82D5006C0F4EBE37015D13AD /* libPods-3.iOS-ntp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6552D7B52D8E4B57826D6790 /* libPods-3.iOS-ntp.a */; };
+		6F3662AEA571069C1F7AABD0 /* Pods_3_iOS_ntp_3_iOS_ntpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A812F01C893C562ADE31399 /* Pods_3_iOS_ntp_3_iOS_ntpUITests.framework */; };
+		A1F0CC962A5824E100E5C0E2 /* ntp.hosts in Resources */ = {isa = PBXBuildFile; fileRef = A1F0CC952A5824E100E5C0E2 /* ntp.hosts */; };
+		DA883D1E4C2A4AFB0FC7EEDC /* Pods_3_iOS_ntp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD43EAFC6AEC92430E0ABA8 /* Pods_3_iOS_ntp.framework */; };
+		E5648FBB336F5104E5CA507D /* Pods_3_iOS_ntpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C05768F4673B79508C1E9E5 /* Pods_3_iOS_ntpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C05768F4673B79508C1E9E5 /* Pods_3_iOS_ntpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3_iOS_ntpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806209024C92FBA00C8A4A4 /* 3.iOS-ntp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3.iOS-ntp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1806209324C92FBA00C8A4A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1806209424C92FBA00C8A4A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,8 +60,14 @@
 		180620BA24C92FBE00C8A4A4 /* __iOS_ntpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __iOS_ntpUITests.m; sourceTree = "<group>"; };
 		180620BC24C92FBE00C8A4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DBB26C5D7FE1A228A9F1D5 /* Pods-3.iOS-ntp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntp.debug.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntp/Pods-3.iOS-ntp.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD43EAFC6AEC92430E0ABA8 /* Pods_3_iOS_ntp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3_iOS_ntp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A812F01C893C562ADE31399 /* Pods_3_iOS_ntp_3_iOS_ntpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3_iOS_ntp_3_iOS_ntpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37C2670D8DC304AD14DD98 /* Pods-3.iOS-ntp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntp.release.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntp/Pods-3.iOS-ntp.release.xcconfig"; sourceTree = "<group>"; };
-		6552D7B52D8E4B57826D6790 /* libPods-3.iOS-ntp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3.iOS-ntp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA5C8E4904A4C9CCEE89E7D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntp-3.iOS-ntpUITests.debug.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntp-3.iOS-ntpUITests/Pods-3.iOS-ntp-3.iOS-ntpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80C994D7907D0558A85C3294 /* Pods-3.iOS-ntpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntpTests.debug.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntpTests/Pods-3.iOS-ntpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		979515EFB15DB9BCF46B166D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntp-3.iOS-ntpUITests.release.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntp-3.iOS-ntpUITests/Pods-3.iOS-ntp-3.iOS-ntpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1F0CC952A5824E100E5C0E2 /* ntp.hosts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ntp.hosts; sourceTree = "<group>"; };
+		C9C6E852A69DB8963EF06E8F /* Pods-3.iOS-ntpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3.iOS-ntpTests.release.xcconfig"; path = "Target Support Files/Pods-3.iOS-ntpTests/Pods-3.iOS-ntpTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82D5006C0F4EBE37015D13AD /* libPods-3.iOS-ntp.a in Frameworks */,
+				DA883D1E4C2A4AFB0FC7EEDC /* Pods_3_iOS_ntp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5648FBB336F5104E5CA507D /* Pods_3_iOS_ntpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3662AEA571069C1F7AABD0 /* Pods_3_iOS_ntp_3_iOS_ntpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +134,7 @@
 				180620A124C92FBE00C8A4A4 /* LaunchScreen.storyboard */,
 				180620A424C92FBE00C8A4A4 /* Info.plist */,
 				180620A524C92FBE00C8A4A4 /* main.m */,
+				A1F0CC952A5824E100E5C0E2 /* ntp.hosts */,
 			);
 			path = "3.iOS-ntp";
 			sourceTree = "<group>";
@@ -147,7 +160,9 @@
 		26C31D0818A8CF80D5B5320E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6552D7B52D8E4B57826D6790 /* libPods-3.iOS-ntp.a */,
+				2FD43EAFC6AEC92430E0ABA8 /* Pods_3_iOS_ntp.framework */,
+				4A812F01C893C562ADE31399 /* Pods_3_iOS_ntp_3_iOS_ntpUITests.framework */,
+				0C05768F4673B79508C1E9E5 /* Pods_3_iOS_ntpTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +172,10 @@
 			children = (
 				18DBB26C5D7FE1A228A9F1D5 /* Pods-3.iOS-ntp.debug.xcconfig */,
 				5D37C2670D8DC304AD14DD98 /* Pods-3.iOS-ntp.release.xcconfig */,
+				7EA5C8E4904A4C9CCEE89E7D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.debug.xcconfig */,
+				979515EFB15DB9BCF46B166D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.release.xcconfig */,
+				80C994D7907D0558A85C3294 /* Pods-3.iOS-ntpTests.debug.xcconfig */,
+				C9C6E852A69DB8963EF06E8F /* Pods-3.iOS-ntpTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -172,6 +191,7 @@
 				1806208C24C92FBA00C8A4A4 /* Sources */,
 				1806208D24C92FBA00C8A4A4 /* Frameworks */,
 				1806208E24C92FBA00C8A4A4 /* Resources */,
+				DD66A886CBFC0920EB8EC0DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180620C224C92FBE00C8A4A4 /* Build configuration list for PBXNativeTarget "3.iOS-ntpTests" */;
 			buildPhases = (
+				1B88DCDB6FB0E210370D75C8 /* [CP] Check Pods Manifest.lock */,
 				180620A724C92FBE00C8A4A4 /* Sources */,
 				180620A824C92FBE00C8A4A4 /* Frameworks */,
 				180620A924C92FBE00C8A4A4 /* Resources */,
@@ -204,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180620C524C92FBE00C8A4A4 /* Build configuration list for PBXNativeTarget "3.iOS-ntpUITests" */;
 			buildPhases = (
+				5A245E86E087F38C792BF366 /* [CP] Check Pods Manifest.lock */,
 				180620B224C92FBE00C8A4A4 /* Sources */,
 				180620B324C92FBE00C8A4A4 /* Frameworks */,
 				180620B424C92FBE00C8A4A4 /* Resources */,
+				382C3B19BD81F91C16D4C0E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,6 +290,7 @@
 			files = (
 				180620A324C92FBE00C8A4A4 /* LaunchScreen.storyboard in Resources */,
 				180620A024C92FBE00C8A4A4 /* Assets.xcassets in Resources */,
+				A1F0CC962A5824E100E5C0E2 /* ntp.hosts in Resources */,
 				1806209E24C92FBA00C8A4A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +312,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B88DCDB6FB0E210370D75C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3.iOS-ntpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		26C24F4C931FCDB1DD3D972C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +354,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382C3B19BD81F91C16D4C0E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp-3.iOS-ntpUITests/Pods-3.iOS-ntp-3.iOS-ntpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp-3.iOS-ntpUITests/Pods-3.iOS-ntp-3.iOS-ntpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp-3.iOS-ntpUITests/Pods-3.iOS-ntp-3.iOS-ntpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A245E86E087F38C792BF366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3.iOS-ntp-3.iOS-ntpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD66A886CBFC0920EB8EC0DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp/Pods-3.iOS-ntp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp/Pods-3.iOS-ntp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3.iOS-ntp/Pods-3.iOS-ntp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,7 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4686HA3AU;
+				DEVELOPMENT_TEAM = 3D47N4555T;
 				INFOPLIST_FILE = "3.iOS-ntp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -510,7 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4686HA3AU;
+				DEVELOPMENT_TEAM = 3D47N4555T;
 				INFOPLIST_FILE = "3.iOS-ntp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -525,6 +627,7 @@
 		};
 		180620C324C92FBE00C8A4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C994D7907D0558A85C3294 /* Pods-3.iOS-ntpTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +648,7 @@
 		};
 		180620C424C92FBE00C8A4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C6E852A69DB8963EF06E8F /* Pods-3.iOS-ntpTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +669,7 @@
 		};
 		180620C624C92FBE00C8A4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA5C8E4904A4C9CCEE89E7D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
@@ -583,6 +688,7 @@
 		};
 		180620C724C92FBE00C8A4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979515EFB15DB9BCF46B166D /* Pods-3.iOS-ntp-3.iOS-ntpUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
